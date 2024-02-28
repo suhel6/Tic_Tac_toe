@@ -14,7 +14,6 @@ $("#board tr td").click(function(){
          play=false;
          document.getElementById("board").value=document.getElementById("board").defaultValue;
          $('body').append("Congrats ... The winner is "+ findwinner());
-         console.log("hello");
        }
        else if(move==10){
          $('body').append("   Oops.. Its a tie");
